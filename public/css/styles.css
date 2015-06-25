@@ -1,3 +1,37 @@
-h1 {
-  font-size: 99px;
-  color: red; }
+body {
+  background-image: url("http://vignette3.wikia.nocookie.net/clubpenguin/images/6/6d/Clothing_Photos_9052.png/revision/latest/scale-to-width-down/1000?cb=20150307155416");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.header {
+  text-align: center; }
+  .header h1 {
+    font-size: 5em;
+    color: orange; }
+
+.container {
+  width: 1200px;
+  margin: auto; }
+  .container .top-section {
+    background-image: url("http://www.svgcuts.com/fsvgfotw/2012/svgcuts_2012_03_10.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin: auto;
+    margin-top: 5%;
+    width: 250px;
+    height: 200px; }
+  .container .bottom-section {
+    width: 250px;
+    margin: auto; }
+    .container .bottom-section .buybutton {
+      width: 100px;
+      height: 50px;
+      background-color: #F05868;
+      margin: 36px 33%;
+      border: none; }
+      .container .bottom-section .buybutton:hover {
+        background-color: green;
+        width: 115px;
+        height: 65px; }
